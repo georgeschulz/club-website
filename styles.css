@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('assets/path.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 4em;
+    width: fit-content;
+}
+
+section {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.center {
+    justify-content: center;
+}
+
+.center .content {
+    text-align: center;
+}
+
+.left {
+    justify-content: flex-start; 
+    padding-left: 10%;
+}
+
+.left .content {
+    text-align: left;
+}
+
+.right {
+    justify-content: flex-end; 
+    padding-right: 10%;
+}
+
+.right .content {
+    text-align: right;
+}
+
+#smiles {
+    background-image: url('assets/smiles.jpg');
+}
+
+#sunset {
+    background-image: url('assets/sunset.jpg');
+}
+
+#crit {
+    background-image: url('assets/crit.jpg');
+}
+
+#buddies {
+    background-image: url('assets/buddies.jpg');
+}
+
+footer {
+    width: 100%;
+    min-height: 20%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    padding: 2em 0em 4em 0em;
+}
+
+.contact-block {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    margin: 1em 2em;
+}
