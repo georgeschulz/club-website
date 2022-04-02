@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.8;
 }
 
+/*Main Block Styling*/
 header {
     background-image: url('assets/path.jpg');
     background-size: 100% auto;
@@ -58,6 +61,8 @@ section {
     text-align: right;
 }
 
+/*Background images*/
+
 #smiles {
     background-image: url('assets/smiles.jpg');
 }
@@ -93,5 +98,29 @@ footer {
     width: 100px;
     height: auto;
     border-radius: 100%;
-    margin: 1em 2em;
+    margin: 1em 1em;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+
+.contact:hover {
+    width: 110px;
+    padding: 0px 0px;
+}
+
+/*Universal Styling*/
+
+h1 {
+    font-size: 2.4rem;
+    font-family: "Lato";
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-family: "Lato";
+}
+
+h3 {
+    font-size: 1;
+    font-family: "Lato";
 }
